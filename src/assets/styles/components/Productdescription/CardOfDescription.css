@@ -1,0 +1,20 @@
+.orderCards{
+    display: flex;
+    flex-direction: row;
+}
+
+.iconDesktop{
+    width: 60px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph{
+    width: 350px;
+    text-align: center;
+}

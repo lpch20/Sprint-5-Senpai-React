@@ -1,0 +1,26 @@
+.reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: aqua;
+    width: 250px;
+}
+
+.titleCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.bodycard{
+    display: flex;
+    flex-direction: row;
+}
+
+.bodycard img{
+    width: 35px;
+    border-radius: 20px;
+}

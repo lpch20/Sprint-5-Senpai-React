@@ -1,0 +1,97 @@
+{
+  "peliculas": [
+    {
+      "name": "efwe",
+      "director": "M. Night Shyamalan",
+      "clasification": "ewfew",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Pulp Fiction",
+      "director": "Tarantino",
+      "clasificacion": "Acción"
+    },
+    {
+      "id": 3,
+      "nombre": "Todo Sobre Mi Madre",
+      "director": "Almodobar",
+      "clasificacion": "Drama"
+    },
+    {
+      "id": 4,
+      "nombre": "300",
+      "director": "Zack Snyder",
+      "clasificacion": "Acción"
+    },
+    {
+      "id": 5,
+      "nombre": "El silencio de los corderos",
+      "director": "Jonathan Demme",
+      "clasificacion": "Drama"
+    },
+    {
+      "nombre": "2012",
+      "director": "chau",
+      "clasificacion": "Accion",
+      "id": 6
+    },
+    {
+      "id": 8
+    },
+    {
+      "nombre": "2012",
+      "director": "Ya sabes",
+      "clasificacion": "Terror",
+      "id": 10
+    },
+    {
+      "name": "Miedo Bootcamp",
+      "director": "Luciano",
+      "clasification": "Terror",
+      "id": "13"
+    },
+    {
+      "name": "Terror en Bootcamp Senpai",
+      "director": "Luciano Piñeyro",
+      "clasification": "Misterio",
+      "id": 14
+    },
+    {
+      "name": "Openhaiimer",
+      "director": "Nashee",
+      "clasification": "Bombas Atomica",
+      "id": 15
+    },
+    {
+      "name": "barbie",
+      "director": "nose",
+      "clasification": "comico",
+      "id": 16
+    },
+    {
+      "name": "batman",
+      "director": "nose",
+      "clasification": "accion",
+      "id": 17
+    }
+  ],
+  "clasificaciones": [
+    {
+      "nombre": "Drama",
+      "id": 1
+    },
+    {
+      "nombre": "Comedia",
+      "id": 2
+    },
+    {
+      "nombre": "Documental",
+      "id": 3
+    },
+    {
+      "nombre": "Acción",
+      "id": 4
+    }
+  ]
+}

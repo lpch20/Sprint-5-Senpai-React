@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(218, 28%, 13%);
+    padding: 20px;
+}
+
+nav div:nth-child(2) a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
