@@ -4,7 +4,7 @@ import './../../../assets/styles/components/FrontPage/FrontPageImage.css'
 function FrontPageImage() {
   return (
     <div>
-        <img className='intro' src="/public/images/illustration-intro.png" alt="" />
+        <img className='intro' src="/images/illustration-intro.png" alt="" />
     </div>
   )
 }
