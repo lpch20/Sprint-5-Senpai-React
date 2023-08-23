@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import features from "../../../utils/data/features.json";
 import "./../../../assets/styles/components/Productdescription/CardOfDescription.css";
 
-function CardOfDescription(props) {
+function CardOfDescription() {
   const [dato, setDato] = useState([]);
 
   const firstObject = features[0];
@@ -16,7 +16,7 @@ function CardOfDescription(props) {
 
   return (
     <>
-      <div className="orderCards">
+      <div className="orderCards1">
         <div className="cards">
           <div>
             <img className="iconDesktop" src={firstObject.image} alt="" />
@@ -40,7 +40,7 @@ function CardOfDescription(props) {
           </div>
         </div>
       </div>
-      <div className="orderCards">
+      <div className="orderCards2">
         <div className="cards">
           <div>
             <img className="iconDesktop" src={thirdObject.image} alt="" />

@@ -1,0 +1,168 @@
+.imgFooter img {
+  width: 100px;
+}
+
+.iconFooter img {
+  width: 10px;
+}
+
+.iconFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iconFooter2 img {
+  width: 10px;
+}
+
+.iconFooter2 {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+.footerConfig div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialMedia img {
+  width: 25px;
+  color: white;
+}
+
+.socialMedia div {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px white;
+}
+
+.containFooter {
+  margin-top: 350px;
+}
+
+footer {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(216, 53%, 9%);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.inputFooter {
+  position: absolute;
+  width: 60%;
+  bottom: -1460px;
+  padding-left: 19%;
+}
+
+li{
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .inputFooter {
+    bottom: -2080px;
+  }
+  
+}
+
+@media (max-width: 930px) {
+  .inputFooter {
+    bottom: -2550px;
+  }
+  
+
+}
+
+@media (max-width: 720px) {
+  .inputFooter {
+    bottom: -2350px;
+    width: 60%;
+    left: 0px;
+  }
+
+
+}
+
+
+@media (max-width: 600px) {
+  .footerConfig div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .iconFooter {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center !important;
+    margin-top: 20px;
+  }
+
+  .iconFooter img{
+    margin-right: 10px;
+  }
+
+  .iconFooter2 {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-top: 20px;
+  }
+  .iconFooter2 img{
+    margin-right: 10px;
+  }
+
+  .iconFooter2 div {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  .inputFooter {
+    bottom: -2000px;
+  }
+
+  .socialMedia {
+    display: flex;
+    flex-direction: row !important;
+    margin: auto;
+    margin-top: 20px !important;
+  }
+
+  ul {
+    margin-top: 20px;
+  }
+
+  footer{
+    height: 800px;
+  }
+
+  .inputFooter {
+    bottom: -2450px;
+    width: 60%;
+    left: 0px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .inputFooter {
+    bottom: -2450px;
+    width: 60%;
+    left: 0px;
+  }
+
+  .footerConfig{
+    width: 370px;
+  }
+
+}

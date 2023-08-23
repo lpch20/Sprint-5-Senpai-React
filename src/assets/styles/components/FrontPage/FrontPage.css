@@ -1,10 +1,24 @@
-section div{
+.frontPage{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 80px;
 }
 
 img{
     width: 100%;
 }
+
+.titleDescription{
+    margin-top: 50px;
+}
+
+.subDescription{
+    margin-top: 20px;
+}
+
+.buttonStarted{
+    margin-top: 20px;
+}
+

@@ -1,0 +1,49 @@
+.inputEmail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+    height: 250px;
+    border-radius: 10px;
+}
+
+.sendEmail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputEmail div{
+   margin-top: 20px;
+}
+
+.sendEmail input{
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    margin-top: 17px;
+}
+
+
+@media (max-width: 930px){
+    .sendEmail input{
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .sendEmail{
+        display: flex;
+        flex-direction: column;
+    }
+    .sendEmail input{
+        width: 100%;
+    }
+    .inputEmail{
+        height: 350px;
+    }
+}

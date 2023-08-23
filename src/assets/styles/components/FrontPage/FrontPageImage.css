@@ -1,3 +1,9 @@
 .intro{
     width: 500px;
 }
+
+@media (max-width: 720px){
+    .intro{
+        width: 300px;
+    }
+}

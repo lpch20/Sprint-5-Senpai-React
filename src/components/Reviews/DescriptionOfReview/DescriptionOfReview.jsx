@@ -14,8 +14,10 @@ function DescriptionOfReview() {
   }, []);
 
   return (
+
     <div className="reviews">
-      <div className={`card`}>
+          <img id="bgQuotes" src="/public/images/bg-quotes.png" alt="" />
+      <div id="card1" className={`card`}>
         <p>{firstObject.quote}</p>
         <div className="bodycard">
           <img src={firstObject.image} alt={firstObject.name} />

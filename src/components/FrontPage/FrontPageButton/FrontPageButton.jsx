@@ -1,10 +1,10 @@
 import React from 'react'
 import "./../../../assets/styles/components/FrontPage/FrontPageButton.css"
 
-function FrontPageButton(props) {
+function FrontPageButton({buttonFrontPage, style}) {
   return (
     <div>
-        <button>{props.buttonFrontPage}</button>
+        <button type='submit' style={style}>{buttonFrontPage} </button>
     </div>
   )
 }

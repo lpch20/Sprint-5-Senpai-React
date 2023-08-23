@@ -7,17 +7,25 @@ import "./../../assets/styles/components/FrontPage/FrontPage.css";
 function FrontPage() {
   return (
     <section>
-      <div>
+      <div className="frontPage">
         <FrontPageImage></FrontPageImage>
-        <DescriptionPage
-          titleDescription={
-            "All your files in one secure location,accessible anywhere."
-          }
-          subtitleDescription={
-            "Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers."
-          }
-        ></DescriptionPage>
-        <FrontPageButton buttonFrontPage={"Get Started"}></FrontPageButton>
+        <div className="titleDescription">
+          <DescriptionPage
+            titleDescription={
+              "All your files in one secure location,accessible anywhere."
+            }
+          ></DescriptionPage>
+        </div>
+        <div className="subDescription">
+          <DescriptionPage
+            subtitleDescription={
+              "Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers."
+            }
+          ></DescriptionPage>
+        </div>
+        <div className="buttonStarted">
+          <FrontPageButton buttonFrontPage={"Get Started"}></FrontPageButton>
+        </div>
       </div>
     </section>
   );
