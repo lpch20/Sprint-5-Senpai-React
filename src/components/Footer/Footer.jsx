@@ -5,10 +5,10 @@ import "../../assets/styles/components/Footer/Footer.css";
 function Footer() {
   return (
     <div className="containFooter">
-      <div className="inputFooter">
-        <InputEmail></InputEmail>
-      </div>
       <footer>
+        <div className="inputFooter">
+          <InputEmail></InputEmail>
+        </div>
         <div className="imgFooter">
           <img src="/icons/logo.svg" alt="" />
         </div>
