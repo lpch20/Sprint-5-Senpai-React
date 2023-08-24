@@ -1,9 +1,14 @@
 import React from "react";
 import InputEmail from "./WriteEmail/InputEmail/InputEmail";
 import "../../assets/styles/components/Footer/Footer.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons';
+
 
 function Footer() {
+  
   return (
+    
     <div className="containFooter">
       <footer>
         <div className="inputFooter">
@@ -24,7 +29,7 @@ function Footer() {
               </p>
             </div>
             <div className="iconFooter2">
-              <div>
+              <div id="iconPhone">
                 <img src="/icons/icon-phone.svg" alt="" />
                 <p>+1-543-1234567</p>
               </div>
@@ -50,13 +55,13 @@ function Footer() {
             </div>
             <div className="socialMedia">
               <div>
-                <img src="/icons/facebook.svg" alt="" />
+              <FontAwesomeIcon icon={faFacebook} style={{color: "#ffffff",}} />
               </div>
               <div>
-                <img src="/icons/square-twitter.svg" alt="" />
+              <FontAwesomeIcon icon={faTwitter} style={{color: "#ffffff",}} />
               </div>
               <div>
-                <img src="/icons/square-instagram.svg" alt="" />
+              <FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} />
               </div>
             </div>
           </div>

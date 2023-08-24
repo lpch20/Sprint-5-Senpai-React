@@ -35,13 +35,13 @@
 }
 
 .socialMedia div {
-  background-color: white;
   width: 25px;
   height: 25px;
   border-radius: 30px white;
 }
 
 .containFooter {
+  position: relative;
   margin-top: 350px;
 }
 
@@ -58,39 +58,13 @@ footer {
 .inputFooter {
   position: absolute;
   width: 60%;
-  bottom: -1460px;
+  bottom: 260px;
   padding-left: 19%;
 }
 
 li{
   margin-top: 20px;
 }
-
-@media (max-width: 1200px) {
-  .inputFooter {
-    bottom: -2080px;
-  }
-  
-}
-
-@media (max-width: 930px) {
-  .inputFooter {
-    bottom: -2550px;
-  }
-  
-
-}
-
-@media (max-width: 720px) {
-  .inputFooter {
-    bottom: -2350px;
-    width: 60%;
-    left: 0px;
-  }
-
-
-}
-
 
 @media (max-width: 600px) {
   .footerConfig div {
@@ -127,10 +101,6 @@ li{
     align-items: center !important;
   }
 
-  .inputFooter {
-    bottom: -2000px;
-  }
-
   .socialMedia {
     display: flex;
     flex-direction: row !important;
@@ -147,19 +117,19 @@ li{
   }
 
   .inputFooter {
-    bottom: -2450px;
-    width: 60%;
-    left: 0px;
+    bottom: 700px;
+    width: 75%;
+    margin: 0  auto;
+    right: 50px;
+  }
+
+  #iconPhone{
+    margin-left: -25px;
   }
 
 }
 
 @media (max-width: 500px) {
-  .inputFooter {
-    bottom: -2450px;
-    width: 60%;
-    left: 0px;
-  }
 
   .footerConfig{
     width: 370px;

@@ -39,6 +39,14 @@
     justify-content: center;
   }
 
+  .orderCards1 div{
+    margin-top: 20px;
+  }
+
+  .orderCards2 div {
+    margin-top: 20px;
+   }
+
 }
 
 @media (max-width: 500px) {
@@ -47,6 +55,7 @@
     width: 300px;
     align-items: center;
     justify-content: center;
-
   }
+
+  
 }

@@ -16,7 +16,7 @@ function DescriptionOfReview() {
   return (
 
     <div className="reviews">
-          <img id="bgQuotes" src="/public/images/bg-quotes.png" alt="" />
+          <img id="bgQuotes" src="/images/bg-quotes.png" alt="" />
       <div id="card1" className={`card`}>
         <p>{firstObject.quote}</p>
         <div className="bodycard">
